@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+</head>
+<body>
+
+    <h1>Ejemplo Formulario</h1>
+
+    <!-- Aqui se muestran los diustintos tipos de input que se pueden hacer -->
+
+    <form action="">
+        
+        <label>Cedula</label>
+         <input type="number" autofocus required><br><br> <!--autofocus se usa para poner el cursor de forma automatica en cuna casilla -->
+
+        Nombre
+         <input type="text" required readonly value="Santiago Segrera"><br><br> <!--required es para hacer que la casilla, el rellenarla sea obligatorio y (readonly) para poner un valor inmodificable y tenemos (max y min) para determinar el numero maximo que puede escribirce -->
+
+        Contraseña
+        <input type="password"><br><br>
+
+        Fecha Nacimiento
+        <input type="date"><br><br>
+
+        Fecha y hora de Nacimiento
+        <input type="datetime-local"><br><br>
+
+        Hora Nacimiento
+        <input type="time"><br><br>
+
+        Sexo <br>
+        <input type="radio" name="Sexo" checked> Hombre <br>
+        <input type="radio" name="Sexo"> Mujer <br>
+        <input type="radio" name="Sexo"> Helicoptero <br><br>
+
+        Deportes <br>
+        <input type="checkbox">Futbol <br>
+        <input type="checkbox"> Basquet <br>
+        <input type="checkbox"> Tenis <br>
+        <input type="checkbox"> Beisbol <br><br>
+
+        Correo Electronico <br>
+        <input type="email"><br><br>
+
+        Sube una foto <br>
+        <input type="file"><br><br>
+
+        <!-- Aqui las formas en las que se puede poner un boton -->
+
+        <input type="button" value="Agregar Datos"><br><br>
+        <input type="submit" value="Enviar Datos"><br><br>
+        <input type="reset" value="Limpiar Formulario"><br><br>
+     </form>
+    
+</body>
+</html>
