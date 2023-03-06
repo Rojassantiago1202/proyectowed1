@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Ejemplo Datalist, Combobox y FieldSet</h1>
+
+    
+    <fieldset>
+
+        <form action="">
+
+        <h2>ComboBox</h2>
+    <select>
+        <option value="">Seleccione un valor</option>
+        <option value="KT">Karate</option>
+        <option value="FT">Futbol</option>
+        <option value="BB">Beisbol</option>
+    </select>
+
+    
+
+    <h2>ComboBox Agrupado</h2>
+    <select name="" id="">
+        <optgroup label="Sistemas Operativos">
+            <option value="">Windows</option>
+            <option value="">GNU/Linux</option>
+            <option value="">Mac OS</option>
+        </optgroup>
+        <optgroup label="Navegadores(Browser)">
+            <option value="">Chrome</option>
+            <option value="">Brave</option>
+            <option value="">Edge</option>
+        </optgroup>
+    </select>
+
+</fieldset><br><br>
+
+    <fieldset>
+
+        <legend>Datalist</legend>
+        
+        <h2>Datalist (Lista Incremental)</h2>
+
+         <datalist id="Lista"> <!-- datalist = datal -->
+            <option value="MySQL"></option>
+            <option value="C++"></option>
+            <option value="Java"></option>
+            <option value="Python"></option>
+        </datalist>
+    
+        <input type="text" list="Lista" placeholder="Escoja una opcio">
+    </fieldset><br><br>
+
+    <h2>TextArea</h2>
+
+    <textarea cols="30" rows="10" placeholder="Cuentame de ti"></textarea><br><br>
+
+    <h2>Expreciones Regulares</h2>
+
+    <input type="text" pattern="[a-zA-ZñÑ]{3}*">
+
+    <input type="submit" value="Enviar datos al servidor"><br><br>
+
+    
+</form>
+    
+</body>
+</html>
