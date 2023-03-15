@@ -1,0 +1,47 @@
+body{
+
+    background-color: aqua;
+
+
+
+
+}
+
+p, h1, h2,{
+
+    text-align: center;
+
+
+
+}
+
+h1 span{
+
+    color: aliceblue;
+
+
+
+}
+
+.destacados{
+
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+
+
+}
+
+#unico{
+
+    font-size: 20px;
+    color: rgb(255, 0, 128);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ 
+
+
+
+}
